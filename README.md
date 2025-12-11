@@ -23,6 +23,7 @@ Colocar *.pcap em data/raw/.
 Depois de organizar os arquivos, a árvore do projeto fica assim:
 project-ddos/
   README.md
+  
   environment.txt            # lista de dependências Python
   data/
     raw/                     # pcaps originais
