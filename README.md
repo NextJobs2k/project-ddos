@@ -80,8 +80,10 @@ numpy, pandas, scipy, matplotlib, pyyaml (e outras que estiverem listadas)
 (para extrair o arquvio mawi e a mesma coisa, so muda o nome do arquivo)
 
    6. Agregação em janelas de 1 s (aggregate.py)
-    # HTTPS + UDP → séries agregadas + multivariada
-python scripts/aggregate.py \
+    # HTTPS + UDP → séries agregadas + multivariada/
+   
+   
+   python scripts/aggregate.py \
   --http data/csv/http_packets.tsv \
   --udp  data/csv/udp_packets.tsv \
   --delta 1.0 \
