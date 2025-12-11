@@ -25,7 +25,9 @@ project-ddos/
   README.md
   
   environment.txt            # lista de dependências Python
+  
   data/
+  
     raw/                     # pcaps originais
       https_ddos_120s.pcap   # ataque HTTPS (Bot-IoT)
       udp_ddos_120s.pcap     # ataque UDP (Bot-IoT)
@@ -41,11 +43,13 @@ project-ddos/
     multivar_agg_1s.csv      # junção multivariada (HTTP+UDP)
     hashes.sha256            # hashes SHA-256 dos CSVs agregados
   scripts/
+  
     extract_csv.ps1          # extração via tshark (Windows/PowerShell)
     aggregate.py             # CSV → séries agregadas
     make_figs_ddos.py        # z-score, PSD, ACF, STFT e figuras
 
-    2. Requisitos
+
+  2. Requisitos
 
 Sistema operacional :Testado em Windows 10/11 (PowerShell)
 
